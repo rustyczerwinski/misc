@@ -1,0 +1,3 @@
+add_epic_issue epic NXTEST-1145 type Story summary 'Inform user when suite execution killed for exceeding limits'
+OK NXTEST-1145 https://jira.eng.netapp.com/browse/NXTEST-1145
+OK NXTEST-1201 https://jira.eng.netapp.com/browse/NXTEST-1201

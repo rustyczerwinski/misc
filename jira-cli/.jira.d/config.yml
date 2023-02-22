@@ -1,0 +1,5 @@
+endpoint: https://jira.ngage.netapp.com
+custom-commands:
+  - name: my-backlog-work
+    help: list items in Backlog with configured user as reporter or assignee
+    script: echo listing backlog for user {currentUser} ; jira list --query 'status=Backlog AND type!="Resource Request" AND (reporter=currentUser() or assignee=currentUser())'
